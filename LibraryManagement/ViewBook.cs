@@ -140,6 +140,8 @@ namespace LibraryManagement
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 da.Fill(ds);
+
+                ViewBook_Load(this, null); //tra lai trang chu
             }
         }
 
@@ -157,6 +159,7 @@ namespace LibraryManagement
                 DataSet ds = new DataSet();
                 da.Fill(ds);
             }
+            ViewBook_Load(this, null); //tra lai trang chu
         }
     }
 }

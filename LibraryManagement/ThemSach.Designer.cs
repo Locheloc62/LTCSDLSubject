@@ -73,6 +73,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(702, 73);
             panel1.TabIndex = 1;
+   
             // 
             // label1
             // 

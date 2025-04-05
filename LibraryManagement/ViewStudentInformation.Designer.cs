@@ -93,7 +93,6 @@
             label1.TabIndex = 1;
             label1.Text = "Thông tin";
             label1.TextAlign = ContentAlignment.MiddleCenter;
-            label1.Click += label1_Click;
             // 
             // pictureBox1
             // 
@@ -115,6 +114,7 @@
             btVSRefresh.TabIndex = 16;
             btVSRefresh.Text = "Refresh";
             btVSRefresh.UseVisualStyleBackColor = true;
+            btVSRefresh.Click += btVSRefresh_Click;
             // 
             // txtRefeshMSV
             // 
@@ -142,6 +142,7 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(944, 264);
             dataGridView1.TabIndex = 17;
+            dataGridView1.CellClick += dataGridView1_CellClick;
             // 
             // panel2
             // 
@@ -195,6 +196,7 @@
             btVSDelete.TabIndex = 44;
             btVSDelete.Text = "Delete";
             btVSDelete.UseVisualStyleBackColor = true;
+            btVSDelete.Click += btVSDelete_Click;
             // 
             // btVSUpdate
             // 
@@ -319,6 +321,7 @@
             Name = "ViewStudentInformation";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "ViewStudentInformation";
+            Load += ViewStudentInformation_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
