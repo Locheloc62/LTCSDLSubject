@@ -71,3 +71,8 @@ D:\LTCSDL\LibraryManagement\LibraryManagement\bin\Debug\net8.0-windows\runtimes\
 D:\LTCSDL\LibraryManagement\LibraryManagement\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.csproj.AssemblyReference.cache
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryM.685EF3B5.Up2Date
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.sourcelink.json
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.ThemSach.resources
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.ViewBook.resources
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.AddStudent.resources
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.ViewStudentInformation.resources

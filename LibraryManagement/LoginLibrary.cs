@@ -5,7 +5,7 @@ namespace LibraryManagement
 {
     public partial class LoginLibrary : Form
     {
-        public SqlConnection con=null;
+        public SqlConnection con = null;
         public LoginLibrary()
         {
             InitializeComponent();
@@ -21,15 +21,7 @@ namespace LibraryManagement
                 txtUser.Clear();
             }
         }
-        private void txtPass_MouseClick(object sender, MouseEventArgs e)
-        {
-            if (txtPass.Text == "Password")
-            {
-            
-                txtPass.PasswordChar = '*';
-                txtPass.Clear();
-            }
-        }
+
         private void pictureYoutube_Click(object sender, EventArgs e)
         {
             try
@@ -70,31 +62,39 @@ namespace LibraryManagement
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = con;
 
-            cmd.CommandText = "select * from loginTable where username ='"+txtUser.Text+"' and pass ='"+txtPass.Text+"'";
-            SqlDataAdapter da=new SqlDataAdapter(cmd);
-            DataSet ds=new DataSet();
+            cmd.CommandText = "select * from loginTable where username ='" + txtUser.Text + "' and pass ='" + txtPass.Text + "'";
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataSet ds = new DataSet();
             da.Fill(ds);
 
-            if(ds.Tables[0].Rows.Count != 0)
+            if (ds.Tables[0].Rows.Count != 0)
             {
                 this.Hide();
-                DashBoard dashboard=new DashBoard();
+                DashBoard dashboard = new DashBoard();
                 dashboard.Show();
             }
             else
             {
-              
-               DialogResult result= MessageBox.Show("Wrong Username or Password!", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
-                if(result==DialogResult.Retry)
+                DialogResult result = MessageBox.Show("Wrong Username or Password!", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                if (result == DialogResult.Retry)
                 {
                     txtPass.Clear();
                     txtUser.Focus();
                 }
                 else
                 {
-                    this.DialogResult=DialogResult.Cancel;
+                    this.DialogResult = DialogResult.Cancel;
                 }
             }
-        }  
+        }
+        private void txtPass_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (txtPass.Text == "Password")
+            {
+                txtPass.Clear();
+                txtPass.PasswordChar = '*';
+                
+            }
+        }
     }
 }

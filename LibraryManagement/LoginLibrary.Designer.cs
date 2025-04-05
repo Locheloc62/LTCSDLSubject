@@ -85,7 +85,6 @@
             txtUser.TabIndex = 2;
             txtUser.Text = "Username";
             txtUser.MouseClick += txtUser_MouseClick;
-       
             // 
             // txtPass
             // 
@@ -99,6 +98,7 @@
             txtPass.TabIndex = 3;
             txtPass.Text = "Password";
             txtPass.MouseClick += txtPass_MouseClick;
+
             // 
             // pictureBox3
             // 
