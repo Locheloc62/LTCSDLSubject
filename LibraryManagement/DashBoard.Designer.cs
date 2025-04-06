@@ -119,6 +119,7 @@
             báoCáoVấnToolStripMenuItem.Name = "báoCáoVấnToolStripMenuItem";
             báoCáoVấnToolStripMenuItem.Size = new Size(179, 54);
             báoCáoVấnToolStripMenuItem.Text = "Báo cáo vấn đề ";
+            báoCáoVấnToolStripMenuItem.Click += báoCáoVấnToolStripMenuItem_Click;
             // 
             // trảToolStripMenuItem
             // 

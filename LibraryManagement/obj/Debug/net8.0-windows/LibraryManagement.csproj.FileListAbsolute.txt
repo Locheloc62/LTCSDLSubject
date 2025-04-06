@@ -76,3 +76,4 @@ D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryMa
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.ViewBook.resources
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.AddStudent.resources
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.ViewStudentInformation.resources
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.IssueBooks.resources

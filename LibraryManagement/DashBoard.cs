@@ -45,8 +45,14 @@ namespace LibraryManagement
 
         private void xemDanhSáchSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ViewStudentInformation vSI=new ViewStudentInformation();
+            ViewStudentInformation vSI = new ViewStudentInformation();
             vSI.Show();
+        }
+
+        private void báoCáoVấnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            IssueBooks isb=new IssueBooks();
+            isb.Show();
         }
     }
 }

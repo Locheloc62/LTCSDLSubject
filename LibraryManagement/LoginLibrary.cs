@@ -1,4 +1,4 @@
-using System.Data;
+﻿using System.Data;
 using Microsoft.Data.SqlClient;
 
 namespace LibraryManagement
@@ -9,6 +9,9 @@ namespace LibraryManagement
         public LoginLibrary()
         {
             InitializeComponent();
+            this.KeyPreview = true;
+            this.KeyDown += new KeyEventHandler(LoginLibrary_KeyDown);
+            this.KeyDown += new KeyEventHandler(btClose_KeyDown);
         }
         private void btClose_Click(object sender, EventArgs e)
         {
@@ -92,8 +95,70 @@ namespace LibraryManagement
             if (txtPass.Text == "Password")
             {
                 txtPass.Clear();
-                txtPass.PasswordChar = '*';
-                
+            }
+            // txtPass.PasswordChar = '*';
+        }
+        private void LoginLibrary_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                SqlConnection con = new SqlConnection();
+                con.ConnectionString = @"Data Source=.;Initial Catalog=LibraryManagement;Integrated Security=True;Encrypt=False";
+                SqlCommand cmd = new SqlCommand();
+                cmd.Connection = con;
+
+                cmd.CommandText = "select * from loginTable where username ='" + txtUser.Text + "' and pass ='" + txtPass.Text + "'";
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataSet ds = new DataSet();
+                da.Fill(ds);
+
+                if (ds.Tables[0].Rows.Count != 0)
+                {
+                    this.Hide();
+                    DashBoard dashboard = new DashBoard();
+                    dashboard.Show();
+                }
+                else
+                {
+                    DialogResult result = MessageBox.Show("Wrong Username or Password!", "Error", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
+                    if (result == DialogResult.Retry)
+                    {
+                        txtPass.Clear();
+                        txtUser.Focus();
+                    }
+                    else
+                    {
+                        this.DialogResult = DialogResult.Cancel;
+                    }
+                }
+            }
+        }
+        private void LoginLibrary_Load(object sender, EventArgs e)
+        {
+            txtPass.UseSystemPasswordChar = true;
+            HidePassword.Text = "Hiện";
+        }
+        private void HidePassword_CheckedChanged(object sender, EventArgs e)
+        {
+            if (HidePassword.Checked)
+            {
+                txtPass.UseSystemPasswordChar = false;
+                var checkbox = (CheckBox)sender;
+                checkbox.Text = "Ẩn mật khẩu";
+            }
+            else
+            {
+                txtPass.UseSystemPasswordChar = true;
+                var checkbox = (CheckBox)sender;
+                checkbox.Text = "Hiện Mật khẩu";
+            }
+        }
+
+        private void btClose_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                this.Close();
             }
         }
     }

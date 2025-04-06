@@ -7,6 +7,9 @@
     <Compile Update="DashBoard.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="IssueBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="LoginLibrary.cs">
       <SubType>Form</SubType>
     </Compile>

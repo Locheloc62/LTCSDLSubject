@@ -43,6 +43,7 @@
             pictureYoutube = new PictureBox();
             pictureIns = new PictureBox();
             btClose = new Button();
+            HidePassword = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -82,7 +83,7 @@
             txtUser.Location = new Point(102, 223);
             txtUser.Name = "txtUser";
             txtUser.Size = new Size(197, 25);
-            txtUser.TabIndex = 2;
+            txtUser.TabIndex = 0;
             txtUser.Text = "Username";
             txtUser.MouseClick += txtUser_MouseClick;
             // 
@@ -95,10 +96,9 @@
             txtPass.Location = new Point(102, 284);
             txtPass.Name = "txtPass";
             txtPass.Size = new Size(197, 25);
-            txtPass.TabIndex = 3;
+            txtPass.TabIndex = 1;
             txtPass.Text = "Password";
             txtPass.MouseClick += txtPass_MouseClick;
-
             // 
             // pictureBox3
             // 
@@ -141,10 +141,10 @@
             btSignUp.BackColor = Color.Black;
             btSignUp.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btSignUp.ForeColor = Color.Cyan;
-            btSignUp.Location = new Point(35, 393);
+            btSignUp.Location = new Point(35, 412);
             btSignUp.Name = "btSignUp";
             btSignUp.Size = new Size(264, 39);
-            btSignUp.TabIndex = 9;
+            btSignUp.TabIndex = 3;
             btSignUp.Text = "Sign Up";
             btSignUp.UseVisualStyleBackColor = false;
             // 
@@ -152,10 +152,10 @@
             // 
             btLogin.BackColor = Color.FromArgb(192, 255, 255);
             btLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btLogin.Location = new Point(35, 335);
+            btLogin.Location = new Point(35, 367);
             btLogin.Name = "btLogin";
             btLogin.Size = new Size(264, 39);
-            btLogin.TabIndex = 10;
+            btLogin.TabIndex = 2;
             btLogin.Text = "Login";
             btLogin.UseVisualStyleBackColor = false;
             btLogin.Click += btLogin_Click;
@@ -163,7 +163,7 @@
             // pictureFacebook
             // 
             pictureFacebook.Image = Properties.Resources.images__1_;
-            pictureFacebook.Location = new Point(35, 452);
+            pictureFacebook.Location = new Point(35, 474);
             pictureFacebook.Name = "pictureFacebook";
             pictureFacebook.Size = new Size(65, 50);
             pictureFacebook.SizeMode = PictureBoxSizeMode.Zoom;
@@ -174,7 +174,7 @@
             // pictureYoutube
             // 
             pictureYoutube.Image = (Image)resources.GetObject("pictureYoutube.Image");
-            pictureYoutube.Location = new Point(135, 452);
+            pictureYoutube.Location = new Point(140, 474);
             pictureYoutube.Name = "pictureYoutube";
             pictureYoutube.Size = new Size(65, 50);
             pictureYoutube.SizeMode = PictureBoxSizeMode.Zoom;
@@ -185,7 +185,7 @@
             // pictureIns
             // 
             pictureIns.Image = (Image)resources.GetObject("pictureIns.Image");
-            pictureIns.Location = new Point(234, 452);
+            pictureIns.Location = new Point(234, 474);
             pictureIns.Name = "pictureIns";
             pictureIns.Size = new Size(65, 50);
             pictureIns.SizeMode = PictureBoxSizeMode.Zoom;
@@ -204,6 +204,19 @@
             btClose.Text = "X";
             btClose.UseVisualStyleBackColor = false;
             btClose.Click += btClose_Click;
+            btClose.KeyDown += btClose_KeyDown;
+            // 
+            // HidePassword
+            // 
+            HidePassword.AutoSize = true;
+            HidePassword.ForeColor = SystemColors.ButtonHighlight;
+            HidePassword.Location = new Point(158, 328);
+            HidePassword.Name = "HidePassword";
+            HidePassword.Size = new Size(127, 24);
+            HidePassword.TabIndex = 15;
+            HidePassword.Text = "Hiện mật khẩu";
+            HidePassword.UseVisualStyleBackColor = true;
+            HidePassword.CheckedChanged += HidePassword_CheckedChanged;
             // 
             // LoginLibrary
             // 
@@ -211,6 +224,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(36, 36, 55);
             ClientSize = new Size(331, 557);
+            Controls.Add(HidePassword);
             Controls.Add(btClose);
             Controls.Add(pictureIns);
             Controls.Add(pictureYoutube);
@@ -232,6 +246,8 @@
             Name = "LoginLibrary";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            Load += LoginLibrary_Load;
+            KeyDown += LoginLibrary_KeyDown;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -259,5 +275,6 @@
         private PictureBox pictureYoutube;
         private PictureBox pictureIns;
         private Button btClose;
+        private CheckBox HidePassword;
     }
 }

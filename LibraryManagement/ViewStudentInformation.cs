@@ -145,7 +145,7 @@ namespace LibraryManagement
             ViewStudentInformation_Load(this, null);//tro lai trang chu
         }
         private void btVSDelete_Click(object sender, EventArgs e)
-            //Coppy của update sửa lại
+        //Coppy của update sửa lại
         {
             if (MessageBox.Show("Dữ liệu sẽ xóa trên hệ thống!", "Xóa dữ liệu", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
             {
@@ -154,7 +154,7 @@ namespace LibraryManagement
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
 
-                cmd.CommandText = "delete from NewStudent where  stuid="+rowid+"";
+                cmd.CommandText = "delete from NewStudent where  stuid=" + rowid + "";
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 da.Fill(ds);

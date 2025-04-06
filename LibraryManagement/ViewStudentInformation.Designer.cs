@@ -111,7 +111,7 @@
             btVSRefresh.Location = new Point(637, 184);
             btVSRefresh.Name = "btVSRefresh";
             btVSRefresh.Size = new Size(95, 32);
-            btVSRefresh.TabIndex = 16;
+            btVSRefresh.TabIndex = 1;
             btVSRefresh.Text = "Refresh";
             btVSRefresh.UseVisualStyleBackColor = true;
             btVSRefresh.Click += btVSRefresh_Click;
@@ -121,7 +121,7 @@
             txtRefeshMSV.Location = new Point(379, 188);
             txtRefeshMSV.Name = "txtRefeshMSV";
             txtRefeshMSV.Size = new Size(236, 27);
-            txtRefeshMSV.TabIndex = 15;
+            txtRefeshMSV.TabIndex = 0;
             txtRefeshMSV.TextChanged += txtRefeshMSV_TextChanged;
             // 
             // label2
@@ -172,7 +172,7 @@
             txtVNamHoc.Location = new Point(650, 20);
             txtVNamHoc.Name = "txtVNamHoc";
             txtVNamHoc.Size = new Size(236, 27);
-            txtVNamHoc.TabIndex = 41;
+            txtVNamHoc.TabIndex = 3;
             // 
             // btVSCancel
             // 
@@ -181,7 +181,7 @@
             btVSCancel.Location = new Point(748, 178);
             btVSCancel.Name = "btVSCancel";
             btVSCancel.Size = new Size(95, 32);
-            btVSCancel.TabIndex = 45;
+            btVSCancel.TabIndex = 8;
             btVSCancel.Text = "Cancel";
             btVSCancel.UseVisualStyleBackColor = true;
             btVSCancel.Click += btVSCancel_Click;
@@ -193,7 +193,7 @@
             btVSDelete.Location = new Point(616, 178);
             btVSDelete.Name = "btVSDelete";
             btVSDelete.Size = new Size(95, 32);
-            btVSDelete.TabIndex = 44;
+            btVSDelete.TabIndex = 7;
             btVSDelete.Text = "Delete";
             btVSDelete.UseVisualStyleBackColor = true;
             btVSDelete.Click += btVSDelete_Click;
@@ -205,7 +205,7 @@
             btVSUpdate.Location = new Point(484, 178);
             btVSUpdate.Name = "btVSUpdate";
             btVSUpdate.Size = new Size(95, 32);
-            btVSUpdate.TabIndex = 43;
+            btVSUpdate.TabIndex = 6;
             btVSUpdate.Text = "Update";
             btVSUpdate.UseVisualStyleBackColor = true;
             btVSUpdate.Click += btVSUpdate_Click;
@@ -215,14 +215,14 @@
             txtVEmail.Location = new Point(650, 130);
             txtVEmail.Name = "txtVEmail";
             txtVEmail.Size = new Size(236, 27);
-            txtVEmail.TabIndex = 41;
+            txtVEmail.TabIndex = 5;
             // 
             // txtVSDT
             // 
             txtVSDT.Location = new Point(650, 77);
             txtVSDT.Name = "txtVSDT";
             txtVSDT.Size = new Size(236, 27);
-            txtVSDT.TabIndex = 40;
+            txtVSDT.TabIndex = 4;
             // 
             // label6
             // 
@@ -259,14 +259,14 @@
             txtVCoSo.Location = new Point(187, 130);
             txtVCoSo.Name = "txtVCoSo";
             txtVCoSo.Size = new Size(236, 27);
-            txtVCoSo.TabIndex = 36;
+            txtVCoSo.TabIndex = 2;
             // 
             // txtVMaSV
             // 
             txtVMaSV.Location = new Point(187, 77);
             txtVMaSV.Name = "txtVMaSV";
             txtVMaSV.Size = new Size(236, 27);
-            txtVMaSV.TabIndex = 35;
+            txtVMaSV.TabIndex = 1;
             // 
             // label5
             // 
@@ -283,7 +283,7 @@
             txtVTenSV.Location = new Point(187, 20);
             txtVTenSV.Name = "txtVTenSV";
             txtVTenSV.Size = new Size(236, 27);
-            txtVTenSV.TabIndex = 34;
+            txtVTenSV.TabIndex = 0;
             // 
             // label3
             // 

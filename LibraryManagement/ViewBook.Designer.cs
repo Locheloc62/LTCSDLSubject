@@ -108,7 +108,7 @@
             txtTen.Location = new Point(527, 144);
             txtTen.Name = "txtTen";
             txtTen.Size = new Size(236, 27);
-            txtTen.TabIndex = 11;
+            txtTen.TabIndex = 0;
             txtTen.TextChanged += txtTen_TextChanged;
             // 
             // label2
@@ -214,7 +214,7 @@
             btRefresh.Location = new Point(789, 139);
             btRefresh.Name = "btRefresh";
             btRefresh.Size = new Size(95, 32);
-            btRefresh.TabIndex = 13;
+            btRefresh.TabIndex = 1;
             btRefresh.Text = "Refresh";
             btRefresh.UseVisualStyleBackColor = true;
             btRefresh.Click += btRefresh_Click;
@@ -247,7 +247,7 @@
             dateTimePickervb.Location = new Point(946, 31);
             dateTimePickervb.Name = "dateTimePickervb";
             dateTimePickervb.Size = new Size(236, 27);
-            dateTimePickervb.TabIndex = 30;
+            dateTimePickervb.TabIndex = 3;
             // 
             // btCancel
             // 
@@ -256,7 +256,7 @@
             btCancel.Location = new Point(1090, 195);
             btCancel.Name = "btCancel";
             btCancel.Size = new Size(95, 32);
-            btCancel.TabIndex = 29;
+            btCancel.TabIndex = 8;
             btCancel.Text = "Cancel";
             btCancel.UseVisualStyleBackColor = true;
             btCancel.Click += btCancel_Click;
@@ -268,7 +268,7 @@
             btDelete.Location = new Point(959, 195);
             btDelete.Name = "btDelete";
             btDelete.Size = new Size(95, 32);
-            btDelete.TabIndex = 28;
+            btDelete.TabIndex = 7;
             btDelete.Text = "Delete";
             btDelete.UseVisualStyleBackColor = true;
             btDelete.Click += btDelete_Click;
@@ -280,7 +280,7 @@
             btUpdate.Location = new Point(829, 195);
             btUpdate.Name = "btUpdate";
             btUpdate.Size = new Size(95, 32);
-            btUpdate.TabIndex = 27;
+            btUpdate.TabIndex = 6;
             btUpdate.Text = "Update";
             btUpdate.UseVisualStyleBackColor = true;
             btUpdate.Click += btUpdate_Click;
@@ -290,14 +290,14 @@
             txtvbChatLuong.Location = new Point(946, 143);
             txtvbChatLuong.Name = "txtvbChatLuong";
             txtvbChatLuong.Size = new Size(236, 27);
-            txtvbChatLuong.TabIndex = 26;
+            txtvbChatLuong.TabIndex = 5;
             // 
             // txtvbGia
             // 
             txtvbGia.Location = new Point(946, 90);
             txtvbGia.Name = "txtvbGia";
             txtvbGia.Size = new Size(236, 27);
-            txtvbGia.TabIndex = 25;
+            txtvbGia.TabIndex = 4;
             // 
             // label6
             // 
@@ -334,14 +334,14 @@
             txtvbXB.Location = new Point(483, 143);
             txtvbXB.Name = "txtvbXB";
             txtvbXB.Size = new Size(236, 27);
-            txtvbXB.TabIndex = 20;
+            txtvbXB.TabIndex = 2;
             // 
             // txtvbTG
             // 
             txtvbTG.Location = new Point(483, 90);
             txtvbTG.Name = "txtvbTG";
             txtvbTG.Size = new Size(236, 27);
-            txtvbTG.TabIndex = 19;
+            txtvbTG.TabIndex = 1;
             // 
             // label5
             // 
@@ -358,7 +358,7 @@
             txtvbTen.Location = new Point(483, 33);
             txtvbTen.Name = "txtvbTen";
             txtvbTen.Size = new Size(236, 27);
-            txtvbTen.TabIndex = 18;
+            txtvbTen.TabIndex = 0;
             // 
             // label3
             // 

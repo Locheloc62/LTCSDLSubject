@@ -53,9 +53,10 @@ namespace LibraryManagement
                 {
                     MessageBox.Show("Vui lòng nhập vào ô trống!!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-            }catch(System.FormatException ex)
+            }
+            catch (System.FormatException ex)
             {
-                MessageBox.Show("Số điện thoại không được nhập chữ!!","Cảnh báo",MessageBoxButtons.OK, MessageBoxIcon.Error);   
+                MessageBox.Show("Số điện thoại không được nhập chữ!!", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

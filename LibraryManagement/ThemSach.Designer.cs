@@ -73,7 +73,6 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(702, 73);
             panel1.TabIndex = 1;
-   
             // 
             // label1
             // 
@@ -123,7 +122,7 @@
             btCancle.Location = new Point(295, 338);
             btCancle.Name = "btCancle";
             btCancle.Size = new Size(118, 38);
-            btCancle.TabIndex = 17;
+            btCancle.TabIndex = 7;
             btCancle.Text = "Cancle";
             btCancle.UseVisualStyleBackColor = true;
             btCancle.Click += btCancle_Click;
@@ -134,7 +133,7 @@
             btSave.Location = new Point(163, 338);
             btSave.Name = "btSave";
             btSave.Size = new Size(118, 38);
-            btSave.TabIndex = 15;
+            btSave.TabIndex = 6;
             btSave.Text = "Save";
             btSave.UseVisualStyleBackColor = true;
             btSave.Click += btSave_Click;
@@ -144,42 +143,42 @@
             dateTimePicker1.Location = new Point(163, 190);
             dateTimePicker1.Name = "dateTimePicker1";
             dateTimePicker1.Size = new Size(250, 27);
-            dateTimePicker1.TabIndex = 14;
+            dateTimePicker1.TabIndex = 3;
             // 
             // txtChatLuong
             // 
             txtChatLuong.Location = new Point(163, 294);
             txtChatLuong.Name = "txtChatLuong";
             txtChatLuong.Size = new Size(236, 27);
-            txtChatLuong.TabIndex = 13;
+            txtChatLuong.TabIndex = 5;
             // 
             // txtGia
             // 
             txtGia.Location = new Point(163, 246);
             txtGia.Name = "txtGia";
             txtGia.Size = new Size(236, 27);
-            txtGia.TabIndex = 12;
+            txtGia.TabIndex = 4;
             // 
             // txtXB
             // 
             txtXB.Location = new Point(163, 135);
             txtXB.Name = "txtXB";
             txtXB.Size = new Size(236, 27);
-            txtXB.TabIndex = 11;
+            txtXB.TabIndex = 2;
             // 
             // txtTG
             // 
             txtTG.Location = new Point(163, 82);
             txtTG.Name = "txtTG";
             txtTG.Size = new Size(236, 27);
-            txtTG.TabIndex = 10;
+            txtTG.TabIndex = 1;
             // 
             // txtTen
             // 
             txtTen.Location = new Point(163, 25);
             txtTen.Name = "txtTen";
             txtTen.Size = new Size(236, 27);
-            txtTen.TabIndex = 9;
+            txtTen.TabIndex = 0;
             // 
             // label7
             // 

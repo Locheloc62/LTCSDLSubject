@@ -72,9 +72,10 @@ namespace LibraryManagement
                 dateTimePickervb.Text = ds.Tables[0].Rows[0][4].ToString();
                 txtvbGia.Text = ds.Tables[0].Rows[0][5].ToString();
                 txtvbChatLuong.Text = ds.Tables[0].Rows[0][6].ToString();
-            }catch(ArgumentOutOfRangeException ex)
+            }
+            catch (ArgumentOutOfRangeException ex)
             {
-                MessageBox.Show("Không thể thao tác ngoài khu vực","Cảnh báo",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Không thể thao tác ngoài khu vực", "Cảnh báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             catch (FormatException ex)
             {
@@ -154,7 +155,7 @@ namespace LibraryManagement
                 SqlCommand cmd = new SqlCommand();
                 cmd.Connection = con;
 
-                cmd.CommandText = "delete from NewBook where id="+rowid+"";
+                cmd.CommandText = "delete from NewBook where id=" + rowid + "";
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataSet ds = new DataSet();
                 da.Fill(ds);

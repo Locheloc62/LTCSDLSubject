@@ -107,35 +107,35 @@
             txtEmail.Location = new Point(384, 376);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(236, 27);
-            txtEmail.TabIndex = 25;
+            txtEmail.TabIndex = 5;
             // 
             // txtSDT
             // 
             txtSDT.Location = new Point(384, 328);
             txtSDT.Name = "txtSDT";
             txtSDT.Size = new Size(236, 27);
-            txtSDT.TabIndex = 24;
+            txtSDT.TabIndex = 4;
             // 
             // txtCoSo
             // 
             txtCoSo.Location = new Point(384, 217);
             txtCoSo.Name = "txtCoSo";
             txtCoSo.Size = new Size(236, 27);
-            txtCoSo.TabIndex = 23;
+            txtCoSo.TabIndex = 2;
             // 
             // txtMaSV
             // 
             txtMaSV.Location = new Point(388, 164);
             txtMaSV.Name = "txtMaSV";
             txtMaSV.Size = new Size(236, 27);
-            txtMaSV.TabIndex = 22;
+            txtMaSV.TabIndex = 1;
             // 
             // txtTenSV
             // 
             txtTenSV.Location = new Point(388, 107);
             txtTenSV.Name = "txtTenSV";
             txtTenSV.Size = new Size(236, 27);
-            txtTenSV.TabIndex = 21;
+            txtTenSV.TabIndex = 0;
             // 
             // label7
             // 
@@ -202,14 +202,14 @@
             txtKhoaHoc.Location = new Point(384, 274);
             txtKhoaHoc.Name = "txtKhoaHoc";
             txtKhoaHoc.Size = new Size(236, 27);
-            txtKhoaHoc.TabIndex = 26;
+            txtKhoaHoc.TabIndex = 3;
             // 
             // btRefesh
             // 
             btRefesh.Location = new Point(302, 449);
             btRefesh.Name = "btRefesh";
             btRefesh.Size = new Size(94, 29);
-            btRefesh.TabIndex = 27;
+            btRefesh.TabIndex = 6;
             btRefesh.Text = "Refesh";
             btRefesh.UseVisualStyleBackColor = true;
             btRefesh.Click += btRefesh_Click;
@@ -219,7 +219,7 @@
             btSavett.Location = new Point(421, 449);
             btSavett.Name = "btSavett";
             btSavett.Size = new Size(116, 29);
-            btSavett.TabIndex = 28;
+            btSavett.TabIndex = 7;
             btSavett.Text = "Lưu thông tin";
             btSavett.UseVisualStyleBackColor = true;
             btSavett.Click += btSavett_Click;
@@ -229,7 +229,7 @@
             btExit.Location = new Point(560, 449);
             btExit.Name = "btExit";
             btExit.Size = new Size(94, 29);
-            btExit.TabIndex = 29;
+            btExit.TabIndex = 8;
             btExit.Text = "Exit";
             btExit.UseVisualStyleBackColor = true;
             btExit.Click += btExit_Click;
