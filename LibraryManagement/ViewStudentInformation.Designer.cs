@@ -65,7 +65,7 @@
             panel1.Controls.Add(label9);
             panel1.Controls.Add(label1);
             panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(12, 12);
+            panel1.Location = new Point(12, 44);
             panel1.Name = "panel1";
             panel1.Size = new Size(944, 166);
             panel1.TabIndex = 0;
@@ -108,7 +108,7 @@
             // 
             btVSRefresh.FlatStyle = FlatStyle.Popup;
             btVSRefresh.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btVSRefresh.Location = new Point(637, 184);
+            btVSRefresh.Location = new Point(637, 216);
             btVSRefresh.Name = "btVSRefresh";
             btVSRefresh.Size = new Size(95, 32);
             btVSRefresh.TabIndex = 1;
@@ -118,7 +118,7 @@
             // 
             // txtRefeshMSV
             // 
-            txtRefeshMSV.Location = new Point(379, 188);
+            txtRefeshMSV.Location = new Point(379, 220);
             txtRefeshMSV.Name = "txtRefeshMSV";
             txtRefeshMSV.Size = new Size(236, 27);
             txtRefeshMSV.TabIndex = 0;
@@ -127,7 +127,7 @@
             // label2
             // 
             label2.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(228, 181);
+            label2.Location = new Point(228, 213);
             label2.Name = "label2";
             label2.Size = new Size(165, 39);
             label2.TabIndex = 14;
@@ -137,7 +137,7 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 227);
+            dataGridView1.Location = new Point(12, 259);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(944, 264);
@@ -162,7 +162,7 @@
             panel2.Controls.Add(txtVTenSV);
             panel2.Controls.Add(label3);
             panel2.Controls.Add(label4);
-            panel2.Location = new Point(12, 497);
+            panel2.Location = new Point(12, 529);
             panel2.Name = "panel2";
             panel2.Size = new Size(944, 223);
             panel2.TabIndex = 18;
@@ -310,7 +310,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(255, 192, 128);
-            ClientSize = new Size(968, 732);
+            ClientSize = new Size(968, 762);
             Controls.Add(panel2);
             Controls.Add(dataGridView1);
             Controls.Add(btVSRefresh);

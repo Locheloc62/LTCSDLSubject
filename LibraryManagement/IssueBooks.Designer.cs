@@ -52,11 +52,11 @@
             panel3 = new Panel();
             btExit = new Button();
             btRefresh = new Button();
+            pictureBox1 = new PictureBox();
+            bindingSource1 = new BindingSource(components);
             btSearch = new Button();
             txtEnrollment = new TextBox();
             label2 = new Label();
-            pictureBox1 = new PictureBox();
-            bindingSource1 = new BindingSource(components);
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel2.SuspendLayout();
@@ -280,6 +280,7 @@
             btExit.TabIndex = 0;
             btExit.Text = "Exit";
             btExit.UseVisualStyleBackColor = true;
+            btExit.Click += btExit_Click;
             // 
             // btRefresh
             // 
@@ -291,6 +292,17 @@
             btRefresh.TabIndex = 0;
             btRefresh.Text = "Refresh";
             btRefresh.UseVisualStyleBackColor = true;
+            btRefresh.Click += btRefresh_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(54, 23);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(138, 102);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 0;
+            pictureBox1.TabStop = false;
             // 
             // btSearch
             // 
@@ -310,6 +322,7 @@
             txtEnrollment.Name = "txtEnrollment";
             txtEnrollment.Size = new Size(215, 27);
             txtEnrollment.TabIndex = 0;
+            txtEnrollment.TextChanged += txtEnrollment_TextChanged;
             // 
             // label2
             // 
@@ -319,16 +332,6 @@
             label2.Size = new Size(238, 39);
             label2.TabIndex = 0;
             label2.Text = "Xác nhận mã sinh viên";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(54, 23);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(138, 102);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
             // 
             // IssueBooks
             // 
@@ -362,11 +365,8 @@
         private Panel panel2;
         private Panel panel3;
         private PictureBox pictureBox1;
-        private Label label2;
         private Button btExit;
         private Button btRefresh;
-        private Button btSearch;
-        private TextBox txtEnrollment;
         private Label label9;
         private Button btIssueBook;
         private DateTimePicker dateTimePicker;
@@ -383,5 +383,8 @@
         private Label label8;
         private ComboBox comboBoxBooks;
         private BindingSource bindingSource1;
+        private Button btSearch;
+        private TextBox txtEnrollment;
+        private Label label2;
     }
 }

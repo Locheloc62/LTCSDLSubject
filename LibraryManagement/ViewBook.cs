@@ -162,5 +162,10 @@ namespace LibraryManagement
             }
             ViewBook_Load(this, null); //tra lai trang chu
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

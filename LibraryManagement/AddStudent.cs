@@ -46,8 +46,15 @@ namespace LibraryManagement
                     con.Open();
                     cmd.CommandText = "insert into NewStudent (sname,enroll,dep,sem,contact,email) values (N'" + name + "',N'" + enroll + "',N'" + dep + "',N'" + sem + "'," + mobile + ",'" + email + "')";
                     cmd.ExecuteNonQuery();
-                    con.Close();
+                    con.Close(); 
+                    txtTenSV.Clear();
+                    txtMaSV.Clear();
+                    txtCoSo.Clear();
+                    txtKhoaHoc.Clear();
+                    txtSDT.Clear();
+                    txtEmail.Clear();
                     MessageBox.Show("Đã lưu thông tin", "Lưu thông tin thành công", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                  
                 }
                 else
                 {

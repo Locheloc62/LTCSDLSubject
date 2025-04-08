@@ -162,5 +162,10 @@ namespace LibraryManagement
                 ViewStudentInformation_Load(this, null);//tro lai trang chu
             }
         }
+
+        private void btExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -16,6 +16,19 @@ namespace LibraryManagement
         {
             InitializeComponent();
         }
+        Form currentChildForm = null;
+        private void OpenChildForm(Form childForm)
+        {
+            // Nếu đang có form con nào mở thì đóng nó
+            if (currentChildForm != null)
+            {
+                currentChildForm.Close();
+            }
+
+            currentChildForm = childForm;      // Cập nhật form con đang mở
+            childForm.StartPosition = FormStartPosition.CenterScreen; // Cho đẹp
+            childForm.Show();
+        }
 
         private void thoátToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -27,32 +40,42 @@ namespace LibraryManagement
 
         private void thêmSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ThemSach themSach = new ThemSach();
-            themSach.Show();
+            OpenChildForm(new AddBook());
+
         }
 
         private void xemDanhSáchSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ViewBook vb = new ViewBook();
-            vb.Show();
+            OpenChildForm(new ViewBook());
         }
 
         private void thêmSinhToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AddStudent addstuednt = new AddStudent();
-            addstuednt.Show();
+            OpenChildForm(new AddStudent());
         }
 
         private void xemDanhSáchSinhViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ViewStudentInformation vSI = new ViewStudentInformation();
-            vSI.Show();
+            OpenChildForm(new ViewStudentInformation());
+        
         }
 
         private void báoCáoVấnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            IssueBooks isb=new IssueBooks();
-            isb.Show();
+            OpenChildForm(new IssueBooks());
+        
         }
+
+        private void trảToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new ReturnBook());
+        
+        }
+
+        private void completeBookDetailToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new CompleteBookDetails());
+        }
+    
     }
 }

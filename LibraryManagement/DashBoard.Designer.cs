@@ -31,15 +31,15 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DashBoard));
             menuStrip1 = new MenuStrip();
             booksToolStripMenuItem = new ToolStripMenuItem();
-            thêmSáchToolStripMenuItem = new ToolStripMenuItem();
-            xemDanhSáchSáchToolStripMenuItem = new ToolStripMenuItem();
-            sinhToolStripMenuItem = new ToolStripMenuItem();
-            thêmSinhToolStripMenuItem = new ToolStripMenuItem();
-            xemDanhSáchSinhViênToolStripMenuItem = new ToolStripMenuItem();
-            báoCáoVấnToolStripMenuItem = new ToolStripMenuItem();
-            trảToolStripMenuItem = new ToolStripMenuItem();
+            AddBookToolStripMenuItem = new ToolStripMenuItem();
+            ViewBookToolStripMenuItem = new ToolStripMenuItem();
+            StudentToolStripMenuItem = new ToolStripMenuItem();
+            AddStudentToolStripMenuItem = new ToolStripMenuItem();
+            ViewStudentToolStripMenuItem = new ToolStripMenuItem();
+            IssueBookToolStripMenuItem = new ToolStripMenuItem();
+            ReturnToolStripMenuItem = new ToolStripMenuItem();
             completeBookDetailToolStripMenuItem = new ToolStripMenuItem();
-            thoátToolStripMenuItem = new ToolStripMenuItem();
+            ExitToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -47,7 +47,7 @@
             // 
             menuStrip1.BackColor = Color.Wheat;
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { booksToolStripMenuItem, sinhToolStripMenuItem, báoCáoVấnToolStripMenuItem, trảToolStripMenuItem, completeBookDetailToolStripMenuItem, thoátToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { booksToolStripMenuItem, StudentToolStripMenuItem, IssueBookToolStripMenuItem, ReturnToolStripMenuItem, completeBookDetailToolStripMenuItem, ExitToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(913, 58);
@@ -58,95 +58,97 @@
             // 
             booksToolStripMenuItem.BackColor = Color.Wheat;
             booksToolStripMenuItem.BackgroundImageLayout = ImageLayout.None;
-            booksToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thêmSáchToolStripMenuItem, xemDanhSáchSáchToolStripMenuItem });
+            booksToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { AddBookToolStripMenuItem, ViewBookToolStripMenuItem });
             booksToolStripMenuItem.Image = (Image)resources.GetObject("booksToolStripMenuItem.Image");
             booksToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             booksToolStripMenuItem.Name = "booksToolStripMenuItem";
             booksToolStripMenuItem.Size = new Size(104, 54);
             booksToolStripMenuItem.Text = "Sách";
             // 
-            // thêmSáchToolStripMenuItem
+            // AddBookToolStripMenuItem
             // 
-            thêmSáchToolStripMenuItem.Image = (Image)resources.GetObject("thêmSáchToolStripMenuItem.Image");
-            thêmSáchToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            thêmSáchToolStripMenuItem.Name = "thêmSáchToolStripMenuItem";
-            thêmSáchToolStripMenuItem.Size = new Size(249, 56);
-            thêmSáchToolStripMenuItem.Text = "Thêm sách mới";
-            thêmSáchToolStripMenuItem.Click += thêmSáchToolStripMenuItem_Click;
+            AddBookToolStripMenuItem.Image = (Image)resources.GetObject("AddBookToolStripMenuItem.Image");
+            AddBookToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            AddBookToolStripMenuItem.Name = "AddBookToolStripMenuItem";
+            AddBookToolStripMenuItem.Size = new Size(254, 56);
+            AddBookToolStripMenuItem.Text = "Thêm sách mới";
+            AddBookToolStripMenuItem.Click += thêmSáchToolStripMenuItem_Click;
             // 
-            // xemDanhSáchSáchToolStripMenuItem
+            // ViewBookToolStripMenuItem
             // 
-            xemDanhSáchSáchToolStripMenuItem.Image = (Image)resources.GetObject("xemDanhSáchSáchToolStripMenuItem.Image");
-            xemDanhSáchSáchToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            xemDanhSáchSáchToolStripMenuItem.Name = "xemDanhSáchSáchToolStripMenuItem";
-            xemDanhSáchSáchToolStripMenuItem.Size = new Size(249, 56);
-            xemDanhSáchSáchToolStripMenuItem.Text = "Xem thông tin sách";
-            xemDanhSáchSáchToolStripMenuItem.Click += xemDanhSáchSáchToolStripMenuItem_Click;
+            ViewBookToolStripMenuItem.Image = (Image)resources.GetObject("ViewBookToolStripMenuItem.Image");
+            ViewBookToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            ViewBookToolStripMenuItem.Name = "ViewBookToolStripMenuItem";
+            ViewBookToolStripMenuItem.Size = new Size(254, 56);
+            ViewBookToolStripMenuItem.Text = "Xem thông tin sách";
+            ViewBookToolStripMenuItem.Click += xemDanhSáchSáchToolStripMenuItem_Click;
             // 
-            // sinhToolStripMenuItem
+            // StudentToolStripMenuItem
             // 
-            sinhToolStripMenuItem.BackColor = Color.OldLace;
-            sinhToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { thêmSinhToolStripMenuItem, xemDanhSáchSinhViênToolStripMenuItem });
-            sinhToolStripMenuItem.Image = (Image)resources.GetObject("sinhToolStripMenuItem.Image");
-            sinhToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            sinhToolStripMenuItem.Name = "sinhToolStripMenuItem";
-            sinhToolStripMenuItem.Size = new Size(132, 54);
-            sinhToolStripMenuItem.Text = "Sinh viên";
+            StudentToolStripMenuItem.BackColor = Color.OldLace;
+            StudentToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { AddStudentToolStripMenuItem, ViewStudentToolStripMenuItem });
+            StudentToolStripMenuItem.Image = (Image)resources.GetObject("StudentToolStripMenuItem.Image");
+            StudentToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            StudentToolStripMenuItem.Name = "StudentToolStripMenuItem";
+            StudentToolStripMenuItem.Size = new Size(132, 54);
+            StudentToolStripMenuItem.Text = "Sinh viên";
             // 
-            // thêmSinhToolStripMenuItem
+            // AddStudentToolStripMenuItem
             // 
-            thêmSinhToolStripMenuItem.Image = (Image)resources.GetObject("thêmSinhToolStripMenuItem.Image");
-            thêmSinhToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            thêmSinhToolStripMenuItem.Name = "thêmSinhToolStripMenuItem";
-            thêmSinhToolStripMenuItem.Size = new Size(275, 56);
-            thêmSinhToolStripMenuItem.Text = "Thêm sinh ";
-            thêmSinhToolStripMenuItem.Click += thêmSinhToolStripMenuItem_Click;
+            AddStudentToolStripMenuItem.Image = (Image)resources.GetObject("AddStudentToolStripMenuItem.Image");
+            AddStudentToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            AddStudentToolStripMenuItem.Name = "AddStudentToolStripMenuItem";
+            AddStudentToolStripMenuItem.Size = new Size(275, 56);
+            AddStudentToolStripMenuItem.Text = "Thêm sinh ";
+            AddStudentToolStripMenuItem.Click += thêmSinhToolStripMenuItem_Click;
             // 
-            // xemDanhSáchSinhViênToolStripMenuItem
+            // ViewStudentToolStripMenuItem
             // 
-            xemDanhSáchSinhViênToolStripMenuItem.Image = (Image)resources.GetObject("xemDanhSáchSinhViênToolStripMenuItem.Image");
-            xemDanhSáchSinhViênToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            xemDanhSáchSinhViênToolStripMenuItem.Name = "xemDanhSáchSinhViênToolStripMenuItem";
-            xemDanhSáchSinhViênToolStripMenuItem.Size = new Size(275, 56);
-            xemDanhSáchSinhViênToolStripMenuItem.Text = "xem thông tin sinh viên";
-            xemDanhSáchSinhViênToolStripMenuItem.Click += xemDanhSáchSinhViênToolStripMenuItem_Click;
+            ViewStudentToolStripMenuItem.Image = (Image)resources.GetObject("ViewStudentToolStripMenuItem.Image");
+            ViewStudentToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            ViewStudentToolStripMenuItem.Name = "ViewStudentToolStripMenuItem";
+            ViewStudentToolStripMenuItem.Size = new Size(275, 56);
+            ViewStudentToolStripMenuItem.Text = "xem thông tin sinh viên";
+            ViewStudentToolStripMenuItem.Click += xemDanhSáchSinhViênToolStripMenuItem_Click;
             // 
-            // báoCáoVấnToolStripMenuItem
+            // IssueBookToolStripMenuItem
             // 
-            báoCáoVấnToolStripMenuItem.BackColor = Color.Wheat;
-            báoCáoVấnToolStripMenuItem.Image = (Image)resources.GetObject("báoCáoVấnToolStripMenuItem.Image");
-            báoCáoVấnToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            báoCáoVấnToolStripMenuItem.Name = "báoCáoVấnToolStripMenuItem";
-            báoCáoVấnToolStripMenuItem.Size = new Size(179, 54);
-            báoCáoVấnToolStripMenuItem.Text = "Báo cáo vấn đề ";
-            báoCáoVấnToolStripMenuItem.Click += báoCáoVấnToolStripMenuItem_Click;
+            IssueBookToolStripMenuItem.BackColor = Color.Wheat;
+            IssueBookToolStripMenuItem.Image = (Image)resources.GetObject("IssueBookToolStripMenuItem.Image");
+            IssueBookToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            IssueBookToolStripMenuItem.Name = "IssueBookToolStripMenuItem";
+            IssueBookToolStripMenuItem.Size = new Size(207, 54);
+            IssueBookToolStripMenuItem.Text = "Biên bản mượn sách";
+            IssueBookToolStripMenuItem.Click += báoCáoVấnToolStripMenuItem_Click;
             // 
-            // trảToolStripMenuItem
+            // ReturnToolStripMenuItem
             // 
-            trảToolStripMenuItem.BackColor = Color.OldLace;
-            trảToolStripMenuItem.Image = (Image)resources.GetObject("trảToolStripMenuItem.Image");
-            trảToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            trảToolStripMenuItem.Name = "trảToolStripMenuItem";
-            trảToolStripMenuItem.Size = new Size(126, 54);
-            trảToolStripMenuItem.Text = "Trả sách";
+            ReturnToolStripMenuItem.BackColor = Color.OldLace;
+            ReturnToolStripMenuItem.Image = (Image)resources.GetObject("ReturnToolStripMenuItem.Image");
+            ReturnToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            ReturnToolStripMenuItem.Name = "ReturnToolStripMenuItem";
+            ReturnToolStripMenuItem.Size = new Size(126, 54);
+            ReturnToolStripMenuItem.Text = "Trả sách";
+            ReturnToolStripMenuItem.Click += trảToolStripMenuItem_Click;
             // 
             // completeBookDetailToolStripMenuItem
             // 
             completeBookDetailToolStripMenuItem.Image = (Image)resources.GetObject("completeBookDetailToolStripMenuItem.Image");
             completeBookDetailToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
             completeBookDetailToolStripMenuItem.Name = "completeBookDetailToolStripMenuItem";
-            completeBookDetailToolStripMenuItem.Size = new Size(218, 54);
-            completeBookDetailToolStripMenuItem.Text = "Complete book detail";
+            completeBookDetailToolStripMenuItem.Size = new Size(175, 54);
+            completeBookDetailToolStripMenuItem.Text = "Chi tiết trả sách";
+            completeBookDetailToolStripMenuItem.Click += completeBookDetailToolStripMenuItem_Click;
             // 
-            // thoátToolStripMenuItem
+            // ExitToolStripMenuItem
             // 
-            thoátToolStripMenuItem.BackColor = Color.OldLace;
-            thoátToolStripMenuItem.Image = (Image)resources.GetObject("thoátToolStripMenuItem.Image");
-            thoátToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
-            thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            thoátToolStripMenuItem.Size = new Size(111, 54);
-            thoátToolStripMenuItem.Text = "Thoát";
-            thoátToolStripMenuItem.Click += thoátToolStripMenuItem_Click;
+            ExitToolStripMenuItem.BackColor = Color.OldLace;
+            ExitToolStripMenuItem.Image = (Image)resources.GetObject("ExitToolStripMenuItem.Image");
+            ExitToolStripMenuItem.ImageScaling = ToolStripItemImageScaling.None;
+            ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
+            ExitToolStripMenuItem.Size = new Size(111, 54);
+            ExitToolStripMenuItem.Text = "Thoát";
+            ExitToolStripMenuItem.Click += thoátToolStripMenuItem_Click;
             // 
             // DashBoard
             // 
@@ -171,14 +173,14 @@
 
         private MenuStrip menuStrip1;
         private ToolStripMenuItem booksToolStripMenuItem;
-        private ToolStripMenuItem thêmSáchToolStripMenuItem;
-        private ToolStripMenuItem xemDanhSáchSáchToolStripMenuItem;
-        private ToolStripMenuItem sinhToolStripMenuItem;
-        private ToolStripMenuItem thêmSinhToolStripMenuItem;
-        private ToolStripMenuItem xemDanhSáchSinhViênToolStripMenuItem;
-        private ToolStripMenuItem báoCáoVấnToolStripMenuItem;
-        private ToolStripMenuItem trảToolStripMenuItem;
+        private ToolStripMenuItem AddBookToolStripMenuItem;
+        private ToolStripMenuItem ViewBookToolStripMenuItem;
+        private ToolStripMenuItem StudentToolStripMenuItem;
+        private ToolStripMenuItem AddStudentToolStripMenuItem;
+        private ToolStripMenuItem ViewStudentToolStripMenuItem;
+        private ToolStripMenuItem IssueBookToolStripMenuItem;
+        private ToolStripMenuItem ReturnToolStripMenuItem;
         private ToolStripMenuItem completeBookDetailToolStripMenuItem;
-        private ToolStripMenuItem thoátToolStripMenuItem;
+        private ToolStripMenuItem ExitToolStripMenuItem;
     }
 }
