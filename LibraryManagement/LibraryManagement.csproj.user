@@ -16,6 +16,9 @@
     <Compile Update="LoginLibrary.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ReturnBook.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -28,5 +31,10 @@
     <Compile Update="ViewStudentInformation.cs">
       <SubType>Form</SubType>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="AddBook.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

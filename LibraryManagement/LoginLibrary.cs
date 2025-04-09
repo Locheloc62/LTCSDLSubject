@@ -115,7 +115,7 @@ namespace LibraryManagement
             {
                 e.Handled = true;
                 e.SuppressKeyPress = true;
-                isLoginClicked = true; 
+                isLoginClicked = true;
                 PerformLogin();
             }
         }
@@ -146,6 +146,13 @@ namespace LibraryManagement
             {
                 this.Close();
             }
+        }
+
+        private void btSignUp_Click(object sender, EventArgs e)
+        {
+            Registration dk=new Registration();
+            dk.Show();
+            this.Hide();
         }
     }
 }

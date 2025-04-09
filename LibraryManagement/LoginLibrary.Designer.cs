@@ -147,6 +147,7 @@
             btSignUp.TabIndex = 3;
             btSignUp.Text = "Sign Up";
             btSignUp.UseVisualStyleBackColor = false;
+            btSignUp.Click += btSignUp_Click;
             // 
             // btLogin
             // 
