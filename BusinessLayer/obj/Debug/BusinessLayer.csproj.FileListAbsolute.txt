@@ -1,0 +1,2 @@
+D:\LTCSDL\LibraryManagement\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\LTCSDL\LibraryManagement\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "B8mu1QOPRvM=",
+  "dgSpecHash": "k2FDyDlDFwM=",
   "success": true,
-  "projectFilePath": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+  "projectFilePath": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\PresentationLayer1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\huulo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\huulo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

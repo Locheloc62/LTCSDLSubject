@@ -1,0 +1,10 @@
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryPresentationLayer.exe.config
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryPresentationLayer.exe
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryPresentationLayer.pdb
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryPresentationLayer.csproj.AssemblyReference.cache
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryPresentationLayer.Properties.Resources.resources
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryPresentationLayer.csproj.GenerateResource.cache
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryPresentationLayer.csproj.CoreCompileInputs.cache
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryP.EFC3F80B.Up2Date
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryPresentationLayer.exe
+D:\LTCSDL\LibraryManagement\LibraryPresentationLayer\obj\Debug\LibraryPresentationLayer.pdb

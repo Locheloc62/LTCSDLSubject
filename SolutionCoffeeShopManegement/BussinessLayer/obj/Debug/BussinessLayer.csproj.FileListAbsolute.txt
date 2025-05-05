@@ -1,0 +1,5 @@
+D:\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.dll
+D:\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.pdb
+D:\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.csprojResolveAssemblyReference.cache
+D:\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.dll
+D:\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.pdb

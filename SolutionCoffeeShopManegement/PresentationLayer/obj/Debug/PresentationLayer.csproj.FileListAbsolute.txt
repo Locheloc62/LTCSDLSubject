@@ -1,0 +1,13 @@
+D:\SolutionCoffeeShopManegement\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+D:\SolutionCoffeeShopManegement\bin\Debug\PresentationLayer.exe.config
+D:\SolutionCoffeeShopManegement\bin\Debug\PresentationLayer.exe
+D:\SolutionCoffeeShopManegement\bin\Debug\PresentationLayer.pdb
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.csprojResolveAssemblyReference.cache
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.Cache
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.exe
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.pdb
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.CoffeeShop.resources
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.Login.resources
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.FormSupplier.FrmAddSupplier.resources
+D:\SolutionCoffeeShopManegement\PresentationLayer\obj\Debug\PresentationLayer.FormSupplier.FrmSupplier.resources

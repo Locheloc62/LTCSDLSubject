@@ -1,0 +1,7 @@
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryBusinessLayer.dll
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryBusinessLayer.pdb
+D:\LTCSDL\LibraryManagement\LibraryBusinessLayer\obj\Debug\LibraryBusinessLayer.csproj.AssemblyReference.cache
+D:\LTCSDL\LibraryManagement\LibraryBusinessLayer\obj\Debug\LibraryBusinessLayer.csproj.CoreCompileInputs.cache
+D:\LTCSDL\LibraryManagement\LibraryBusinessLayer\obj\Debug\LibraryB.6B449F2B.Up2Date
+D:\LTCSDL\LibraryManagement\LibraryBusinessLayer\obj\Debug\LibraryBusinessLayer.dll
+D:\LTCSDL\LibraryManagement\LibraryBusinessLayer\obj\Debug\LibraryBusinessLayer.pdb

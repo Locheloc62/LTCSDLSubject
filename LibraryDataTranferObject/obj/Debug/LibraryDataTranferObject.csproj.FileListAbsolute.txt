@@ -1,0 +1,9 @@
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryDataTranferObject.exe.config
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryDataTranferObject.exe
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryDataTranferObject.pdb
+D:\LTCSDL\LibraryManagement\LibraryDataTranferObject\obj\Debug\LibraryDataTranferObject.csproj.AssemblyReference.cache
+D:\LTCSDL\LibraryManagement\LibraryDataTranferObject\obj\Debug\LibraryDataTranferObject.Properties.Resources.resources
+D:\LTCSDL\LibraryManagement\LibraryDataTranferObject\obj\Debug\LibraryDataTranferObject.csproj.GenerateResource.cache
+D:\LTCSDL\LibraryManagement\LibraryDataTranferObject\obj\Debug\LibraryDataTranferObject.csproj.CoreCompileInputs.cache
+D:\LTCSDL\LibraryManagement\LibraryDataTranferObject\obj\Debug\LibraryDataTranferObject.exe
+D:\LTCSDL\LibraryManagement\LibraryDataTranferObject\obj\Debug\LibraryDataTranferObject.pdb

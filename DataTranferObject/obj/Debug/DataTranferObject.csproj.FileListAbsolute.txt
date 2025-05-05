@@ -1,0 +1,6 @@
+D:\LTCSDL\LibraryManagement\bin\Debug\DataTranferObject.dll
+D:\LTCSDL\LibraryManagement\bin\Debug\DataTranferObject.pdb
+D:\LTCSDL\LibraryManagement\DataTranferObject\obj\Debug\DataTranferObject.csproj.AssemblyReference.cache
+D:\LTCSDL\LibraryManagement\DataTranferObject\obj\Debug\DataTranferObject.csproj.CoreCompileInputs.cache
+D:\LTCSDL\LibraryManagement\DataTranferObject\obj\Debug\DataTranferObject.dll
+D:\LTCSDL\LibraryManagement\DataTranferObject\obj\Debug\DataTranferObject.pdb

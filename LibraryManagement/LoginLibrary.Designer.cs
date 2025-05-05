@@ -39,18 +39,14 @@
             panel2 = new Panel();
             btSignUp = new Button();
             btLogin = new Button();
-            pictureFacebook = new PictureBox();
-            pictureYoutube = new PictureBox();
-            pictureIns = new PictureBox();
             btClose = new Button();
             HidePassword = new CheckBox();
+            rdUser = new RadioButton();
+            rdAdmin = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureFacebook).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureYoutube).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureIns).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -67,7 +63,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(35, 163);
+            pictureBox2.Location = new Point(35, 149);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(264, 54);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -95,14 +91,14 @@
             txtPass.ForeColor = Color.White;
             txtPass.Location = new Point(102, 284);
             txtPass.Name = "txtPass";
-            txtPass.Size = new Size(197, 25);
+            txtPass.Size = new Size(183, 25);
             txtPass.TabIndex = 1;
             txtPass.Text = "Password";
             txtPass.MouseClick += txtPass_MouseClick;
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.user_icon_512x512_x23sj495;
+           
             pictureBox3.Location = new Point(35, 218);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(46, 32);
@@ -141,7 +137,7 @@
             btSignUp.BackColor = Color.Black;
             btSignUp.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btSignUp.ForeColor = Color.Cyan;
-            btSignUp.Location = new Point(35, 412);
+            btSignUp.Location = new Point(35, 485);
             btSignUp.Name = "btSignUp";
             btSignUp.Size = new Size(264, 39);
             btSignUp.TabIndex = 3;
@@ -153,46 +149,13 @@
             // 
             btLogin.BackColor = Color.FromArgb(192, 255, 255);
             btLogin.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btLogin.Location = new Point(35, 367);
+            btLogin.Location = new Point(35, 425);
             btLogin.Name = "btLogin";
             btLogin.Size = new Size(264, 39);
             btLogin.TabIndex = 2;
             btLogin.Text = "Login";
             btLogin.UseVisualStyleBackColor = false;
             btLogin.Click += btLogin_Click;
-            // 
-            // pictureFacebook
-            // 
-            pictureFacebook.Image = Properties.Resources.images__1_;
-            pictureFacebook.Location = new Point(35, 474);
-            pictureFacebook.Name = "pictureFacebook";
-            pictureFacebook.Size = new Size(65, 50);
-            pictureFacebook.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureFacebook.TabIndex = 11;
-            pictureFacebook.TabStop = false;
-            pictureFacebook.Click += pictureFacebook_Click;
-            // 
-            // pictureYoutube
-            // 
-            pictureYoutube.Image = (Image)resources.GetObject("pictureYoutube.Image");
-            pictureYoutube.Location = new Point(140, 474);
-            pictureYoutube.Name = "pictureYoutube";
-            pictureYoutube.Size = new Size(65, 50);
-            pictureYoutube.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureYoutube.TabIndex = 12;
-            pictureYoutube.TabStop = false;
-            pictureYoutube.Click += pictureYoutube_Click;
-            // 
-            // pictureIns
-            // 
-            pictureIns.Image = (Image)resources.GetObject("pictureIns.Image");
-            pictureIns.Location = new Point(234, 474);
-            pictureIns.Name = "pictureIns";
-            pictureIns.Size = new Size(65, 50);
-            pictureIns.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureIns.TabIndex = 13;
-            pictureIns.TabStop = false;
-            pictureIns.Click += pictureIns_Click;
             // 
             // btClose
             // 
@@ -219,17 +182,40 @@
             HidePassword.UseVisualStyleBackColor = true;
             HidePassword.CheckedChanged += HidePassword_CheckedChanged;
             // 
+            // rdUser
+            // 
+            rdUser.AutoSize = true;
+            rdUser.Checked = true;
+            rdUser.ForeColor = Color.White;
+            rdUser.Location = new Point(35, 353);
+            rdUser.Name = "rdUser";
+            rdUser.Size = new Size(59, 24);
+            rdUser.TabIndex = 16;
+            rdUser.TabStop = true;
+            rdUser.Text = "User";
+            rdUser.UseVisualStyleBackColor = true;
+            // 
+            // rdAdmin
+            // 
+            rdAdmin.AutoSize = true;
+            rdAdmin.ForeColor = Color.White;
+            rdAdmin.Location = new Point(35, 395);
+            rdAdmin.Name = "rdAdmin";
+            rdAdmin.Size = new Size(74, 24);
+            rdAdmin.TabIndex = 17;
+            rdAdmin.Text = "Admin";
+            rdAdmin.UseVisualStyleBackColor = true;
+            // 
             // LoginLibrary
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(36, 36, 55);
             ClientSize = new Size(331, 557);
+            Controls.Add(rdAdmin);
+            Controls.Add(rdUser);
             Controls.Add(HidePassword);
             Controls.Add(btClose);
-            Controls.Add(pictureIns);
-            Controls.Add(pictureYoutube);
-            Controls.Add(pictureFacebook);
             Controls.Add(btLogin);
             Controls.Add(btSignUp);
             Controls.Add(panel2);
@@ -253,9 +239,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureFacebook).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureYoutube).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureIns).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -272,10 +255,9 @@
         private Panel panel2;
         private Button btSignUp;
         private Button btLogin;
-        private PictureBox pictureFacebook;
-        private PictureBox pictureYoutube;
-        private PictureBox pictureIns;
         private Button btClose;
         private CheckBox HidePassword;
+        private RadioButton rdUser;
+        private RadioButton rdAdmin;
     }
 }

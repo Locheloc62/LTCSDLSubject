@@ -1,0 +1,5 @@
+D:\SolutionCoffeeShopManegement\bin\Debug\DataLayer.dll
+D:\SolutionCoffeeShopManegement\bin\Debug\DataLayer.pdb
+D:\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.dll
+D:\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.pdb

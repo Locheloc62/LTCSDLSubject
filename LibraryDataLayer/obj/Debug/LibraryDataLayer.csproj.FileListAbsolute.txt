@@ -1,0 +1,7 @@
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryDataLayer.dll
+D:\LTCSDL\LibraryManagement\bin\Debug\LibraryDataLayer.pdb
+D:\LTCSDL\LibraryManagement\LibraryDataLayer\obj\Debug\LibraryDataLayer.csproj.AssemblyReference.cache
+D:\LTCSDL\LibraryManagement\LibraryDataLayer\obj\Debug\LibraryDataLayer.csproj.CoreCompileInputs.cache
+D:\LTCSDL\LibraryManagement\LibraryDataLayer\obj\Debug\LibraryD.0AD6C716.Up2Date
+D:\LTCSDL\LibraryManagement\LibraryDataLayer\obj\Debug\LibraryDataLayer.dll
+D:\LTCSDL\LibraryManagement\LibraryDataLayer\obj\Debug\LibraryDataLayer.pdb

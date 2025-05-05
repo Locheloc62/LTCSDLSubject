@@ -2157,9 +2157,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
-      "projectName": "LibraryManagement",
-      "projectPath": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+      "projectUniqueName": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\PresentationLayer1.csproj",
+      "projectName": "PresentationLayer1",
+      "projectPath": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\PresentationLayer1.csproj",
       "packagesPath": "C:\\Users\\huulo\\.nuget\\packages\\",
       "outputPath": "D:\\LTCSDL\\LibraryManagement\\LibraryManagement\\obj\\",
       "projectStyle": "PackageReference",

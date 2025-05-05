@@ -1,0 +1,12 @@
+D:\SolutionCoffeeShopManegement\bin\Debug\DataLayer.dll
+D:\SolutionCoffeeShopManegement\bin\Debug\DataLayer.pdb
+D:\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+D:\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.dll
+D:\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.pdb
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\bin\Debug\DataLayer.dll
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\bin\Debug\DataLayer.pdb
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.dll
+D:\LTCSDL\SolutionCoffeeShopManegement\SolutionCoffeeShopManegement\DataLayer\obj\Debug\DataLayer.pdb

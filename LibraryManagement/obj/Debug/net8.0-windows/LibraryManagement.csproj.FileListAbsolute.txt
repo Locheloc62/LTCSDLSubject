@@ -80,3 +80,4 @@ D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryMa
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.AddBook.resources
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.CompleteBookDetails.resources
 D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.Registration.resources
+D:\LTCSDL\LibraryManagement\LibraryManagement\obj\Debug\net8.0-windows\LibraryManagement.User.resources

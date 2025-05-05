@@ -41,7 +41,6 @@
             pictureBox1 = new PictureBox();
             txtTen = new TextBox();
             label2 = new Label();
-            sqlCommand1 = new Microsoft.Data.SqlClient.SqlCommand();
             dataGridView1 = new DataGridView();
             Column1 = new DataGridViewTextBoxColumn();
             Column2 = new DataGridViewTextBoxColumn();
@@ -121,11 +120,6 @@
             label2.Text = "Tên sách:";
             label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
-            // sqlCommand1
-            // 
-            sqlCommand1.CommandTimeout = 30;
-            sqlCommand1.EnableOptimizedParameterBinding = false;
-            // 
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -133,7 +127,7 @@
             dataGridView1.Location = new Point(11, 179);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(1256, 276);
+            dataGridView1.Size = new Size(1138, 276);
             dataGridView1.TabIndex = 12;
             dataGridView1.CellClick += dataGridView1_CellClick;
             // 
@@ -239,13 +233,13 @@
             panel2.Controls.Add(label4);
             panel2.Location = new Point(12, 461);
             panel2.Name = "panel2";
-            panel2.Size = new Size(1256, 246);
+            panel2.Size = new Size(1137, 246);
             panel2.TabIndex = 14;
             panel2.Paint += panel2_Paint;
             // 
             // dateTimePickervb
             // 
-            dateTimePickervb.Location = new Point(946, 31);
+            dateTimePickervb.Location = new Point(684, 36);
             dateTimePickervb.Name = "dateTimePickervb";
             dateTimePickervb.Size = new Size(236, 27);
             dateTimePickervb.TabIndex = 3;
@@ -254,7 +248,7 @@
             // 
             btCancel.FlatStyle = FlatStyle.Popup;
             btCancel.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btCancel.Location = new Point(1090, 195);
+            btCancel.Location = new Point(828, 200);
             btCancel.Name = "btCancel";
             btCancel.Size = new Size(95, 32);
             btCancel.TabIndex = 8;
@@ -266,7 +260,7 @@
             // 
             btDelete.FlatStyle = FlatStyle.Popup;
             btDelete.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btDelete.Location = new Point(959, 195);
+            btDelete.Location = new Point(697, 200);
             btDelete.Name = "btDelete";
             btDelete.Size = new Size(95, 32);
             btDelete.TabIndex = 7;
@@ -278,7 +272,7 @@
             // 
             btUpdate.FlatStyle = FlatStyle.Popup;
             btUpdate.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btUpdate.Location = new Point(829, 195);
+            btUpdate.Location = new Point(567, 200);
             btUpdate.Name = "btUpdate";
             btUpdate.Size = new Size(95, 32);
             btUpdate.TabIndex = 6;
@@ -288,14 +282,14 @@
             // 
             // txtvbChatLuong
             // 
-            txtvbChatLuong.Location = new Point(946, 143);
+            txtvbChatLuong.Location = new Point(684, 148);
             txtvbChatLuong.Name = "txtvbChatLuong";
             txtvbChatLuong.Size = new Size(236, 27);
             txtvbChatLuong.TabIndex = 5;
             // 
             // txtvbGia
             // 
-            txtvbGia.Location = new Point(946, 90);
+            txtvbGia.Location = new Point(684, 95);
             txtvbGia.Name = "txtvbGia";
             txtvbGia.Size = new Size(236, 27);
             txtvbGia.TabIndex = 4;
@@ -303,7 +297,7 @@
             // label6
             // 
             label6.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(783, 136);
+            label6.Location = new Point(521, 141);
             label6.Name = "label6";
             label6.Size = new Size(135, 39);
             label6.TabIndex = 23;
@@ -313,7 +307,7 @@
             // label7
             // 
             label7.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(783, 78);
+            label7.Location = new Point(521, 83);
             label7.Name = "label7";
             label7.Size = new Size(124, 39);
             label7.TabIndex = 22;
@@ -323,7 +317,7 @@
             // label8
             // 
             label8.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(783, 26);
+            label8.Location = new Point(521, 31);
             label8.Name = "label8";
             label8.Size = new Size(124, 39);
             label8.TabIndex = 21;
@@ -332,14 +326,14 @@
             // 
             // txtvbXB
             // 
-            txtvbXB.Location = new Point(483, 143);
+            txtvbXB.Location = new Point(221, 148);
             txtvbXB.Name = "txtvbXB";
             txtvbXB.Size = new Size(236, 27);
             txtvbXB.TabIndex = 2;
             // 
             // txtvbTG
             // 
-            txtvbTG.Location = new Point(483, 90);
+            txtvbTG.Location = new Point(221, 95);
             txtvbTG.Name = "txtvbTG";
             txtvbTG.Size = new Size(236, 27);
             txtvbTG.TabIndex = 1;
@@ -347,7 +341,7 @@
             // label5
             // 
             label5.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(320, 26);
+            label5.Location = new Point(58, 31);
             label5.Name = "label5";
             label5.Size = new Size(100, 39);
             label5.TabIndex = 15;
@@ -356,7 +350,7 @@
             // 
             // txtvbTen
             // 
-            txtvbTen.Location = new Point(483, 33);
+            txtvbTen.Location = new Point(221, 38);
             txtvbTen.Name = "txtvbTen";
             txtvbTen.Size = new Size(236, 27);
             txtvbTen.TabIndex = 0;
@@ -364,7 +358,7 @@
             // label3
             // 
             label3.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(320, 78);
+            label3.Location = new Point(58, 83);
             label3.Name = "label3";
             label3.Size = new Size(124, 39);
             label3.TabIndex = 16;
@@ -374,7 +368,7 @@
             // label4
             // 
             label4.Font = new Font("Calibri", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(320, 136);
+            label4.Location = new Point(58, 141);
             label4.Name = "label4";
             label4.Size = new Size(135, 39);
             label4.TabIndex = 17;
@@ -387,7 +381,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
             BackColor = Color.FromArgb(255, 192, 128);
-            ClientSize = new Size(1238, 733);
+            ClientSize = new Size(1160, 733);
             Controls.Add(panel2);
             Controls.Add(btRefresh);
             Controls.Add(dataGridView1);
@@ -396,8 +390,9 @@
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ViewBook";
-            StartPosition = FormStartPosition.CenterScreen;
+            StartPosition = FormStartPosition.CenterParent;
             Text = "ViewBook";
+            WindowState = FormWindowState.Maximized;
             Load += ViewBook_Load;
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
@@ -415,7 +410,6 @@
         private PictureBox pictureBox1;
         private TextBox txtTen;
         private Label label2;
-        private Microsoft.Data.SqlClient.SqlCommand sqlCommand1;
         private DataGridView dataGridView1;
         private Button btRefresh;
         private Panel panel2;
