@@ -1,0 +1,13 @@
+D:\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.dll
+D:\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.pdb
+D:\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.csprojResolveAssemblyReference.cache
+D:\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.dll
+D:\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.pdb
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.dll
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.pdb
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.csproj.AssemblyReference.cache
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.csproj.CoreCompileInputs.cache
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\Bussines.E1038C4E.Up2Date
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.dll
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\BussinessLayer\obj\Debug\BussinessLayer.pdb
+D:\LTCSDL\New folder\SolutionCoffeeShopManegement\bin\Debug\BussinessLayer.dll.config

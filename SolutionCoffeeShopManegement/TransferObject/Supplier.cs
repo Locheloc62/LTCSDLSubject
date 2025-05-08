@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TransferObject
+{
+    public class Supplier
+    {
+
+        public string Id { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+       // public Supplier() { }
+        public Supplier(string id, string name, string addrees)
+        {
+            Id = id;
+            Name = name;
+            Address = addrees;
+        }
+        // Navigation property: danh sách Product của Supplier
+        
+    }
+}

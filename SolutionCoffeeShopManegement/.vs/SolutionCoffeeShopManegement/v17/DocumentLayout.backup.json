@@ -1,0 +1,263 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\datalayer\\supplierdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\supplierdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|d:\\ltcsdl\\new folder\\solutioncoffeeshopmanegement\\presentationlayer\\formsupplier\\frmsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\formsupplier\\frmsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\presentationlayer\\formsupplier\\frmsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\formsupplier\\frmsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\presentationlayer\\formsupplier\\frmaddsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\formsupplier\\frmaddsupplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\presentationlayer\\coffeeshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\coffeeshop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D355F60B-0B82-4BDB-A86E-A91C5A1D891F}|PresentationLayer\\PresentationLayer.csproj|solutionrelative:presentationlayer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954C588A-FED3-45D3-ABCC-5AF21DB5DEFE}|BussinessLayer\\BussinessLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\bussinesslayer\\loginbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954C588A-FED3-45D3-ABCC-5AF21DB5DEFE}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\loginbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\datalayer\\logindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\logindl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\datalayer\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954C588A-FED3-45D3-ABCC-5AF21DB5DEFE}|BussinessLayer\\BussinessLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\bussinesslayer\\supplierbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954C588A-FED3-45D3-ABCC-5AF21DB5DEFE}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\supplierbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49A03A9C-A967-4009-99E5-A64FE6A2C405}|Solution Items{49A03A9C-A967-4009-99E5-A64FE6A2C405}|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\MyScrup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{49A03A9C-A967-4009-99E5-A64FE6A2C405}|Solution Items{49A03A9C-A967-4009-99E5-A64FE6A2C405}|solutionrelative:MyScrup.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\datalayer\\productdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{605CE0BE-3E48-4CE6-8B36-C5558528C176}|DataLayer\\DataLayer.csproj|solutionrelative:datalayer\\productdl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{954C588A-FED3-45D3-ABCC-5AF21DB5DEFE}|BussinessLayer\\BussinessLayer.csproj|D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\bussinesslayer\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{954C588A-FED3-45D3-ABCC-5AF21DB5DEFE}|BussinessLayer\\BussinessLayer.csproj|solutionrelative:bussinesslayer\\productbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 210,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\Login.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\Login.cs",
+              "RelativeToolTip": "PresentationLayer\\Login.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:45:23.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmAddSupplier.cs [Design]",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\FormSupplier\\FrmAddSupplier.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\FormSupplier\\FrmAddSupplier.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\FormSupplier\\FrmAddSupplier.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\FormSupplier\\FrmAddSupplier.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:35:22.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmSupplier.cs [Design]",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\FormSupplier\\FrmSupplier.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\FormSupplier\\FrmSupplier.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\FormSupplier\\FrmSupplier.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\FormSupplier\\FrmSupplier.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:35:53.576Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmSupplier.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\FormSupplier\\FrmSupplier.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\FormSupplier\\FrmSupplier.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\FormSupplier\\FrmSupplier.cs",
+              "RelativeToolTip": "PresentationLayer\\FormSupplier\\FrmSupplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:36:05.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SupplierDL.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\SupplierDL.cs",
+              "RelativeDocumentMoniker": "DataLayer\\SupplierDL.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\SupplierDL.cs",
+              "RelativeToolTip": "DataLayer\\SupplierDL.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAgwGsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:47:32.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CoffeeShop.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\CoffeeShop.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\CoffeeShop.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\CoffeeShop.cs",
+              "RelativeToolTip": "PresentationLayer\\CoffeeShop.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:49:55.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs [Design]",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\Login.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Login.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\Login.cs [Design]",
+              "RelativeToolTip": "PresentationLayer\\Login.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:45:21.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\Program.cs",
+              "RelativeDocumentMoniker": "PresentationLayer\\Program.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\PresentationLayer\\Program.cs",
+              "RelativeToolTip": "PresentationLayer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:49:05.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginDL.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\LoginDL.cs",
+              "RelativeDocumentMoniker": "DataLayer\\LoginDL.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\LoginDL.cs",
+              "RelativeToolTip": "DataLayer\\LoginDL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:46:46.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginBL.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\BussinessLayer\\LoginBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\LoginBL.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\BussinessLayer\\LoginBL.cs",
+              "RelativeToolTip": "BussinessLayer\\LoginBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:47:33.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DataLayer\\DataProvider.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\DataProvider.cs",
+              "RelativeToolTip": "DataLayer\\DataProvider.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:44:22.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductDL.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\ProductDL.cs",
+              "RelativeDocumentMoniker": "DataLayer\\ProductDL.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\DataLayer\\ProductDL.cs",
+              "RelativeToolTip": "DataLayer\\ProductDL.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:05:22.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MyScrup.sql",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\MyScrup.sql",
+              "RelativeDocumentMoniker": "MyScrup.sql",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\MyScrup.sql",
+              "RelativeToolTip": "MyScrup.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-05T17:09:32.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SupplierBL.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\BussinessLayer\\SupplierBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\SupplierBL.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\BussinessLayer\\SupplierBL.cs",
+              "RelativeToolTip": "BussinessLayer\\SupplierBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwDoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T16:47:25.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductBL.cs",
+              "DocumentMoniker": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\BussinessLayer\\ProductBL.cs",
+              "RelativeDocumentMoniker": "BussinessLayer\\ProductBL.cs",
+              "ToolTip": "D:\\LTCSDL\\New folder\\SolutionCoffeeShopManegement\\BussinessLayer\\ProductBL.cs",
+              "RelativeToolTip": "BussinessLayer\\ProductBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T17:14:50.179Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
